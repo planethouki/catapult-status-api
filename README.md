@@ -1,5 +1,6 @@
 # catapult-status-api
 
+
 ## usage
 
 start catapult-service-bootstrap
@@ -37,3 +38,34 @@ access
 curl http://localhost:3500/health
 curl http://localhost:3500/network
 ```
+
+
+
+## note
+
+Depending on the codename you use, please change `Dockerfile`.
+
+alpaca
+
+```
+FROM techbureau/catapult-tools:gcc-0.1.0.2
+```
+
+bison (default)
+
+```
+FROM techbureau/catapult-tools:gcc-0.2.0.2
+```
+
+cow
+
+```
+FROM techbureau/catapult-tools:gcc-0.3.0.1
+```
+
+
+## demo
+
+http://54.238.216.37:3500/health
+
+http://54.238.216.37:3500/network

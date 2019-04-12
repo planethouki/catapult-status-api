@@ -60,12 +60,5 @@ FROM techbureau/catapult-tools:gcc-0.2.0.2
 cow
 
 ```
-FROM techbureau/catapult-tools:gcc-0.3.0.1
+FROM techbureau/catapult-tools:gcc-0.3.0.2
 ```
-
-
-## demo
-
-http://54.238.216.37:3500/health
-
-http://54.238.216.37:3500/network

@@ -1,4 +1,4 @@
-FROM techbureau/catapult-tools:gcc-0.2.0.2
+FROM techbureau/catapult-tools:gcc-0.3.0.2
 ADD ./userconfig /userconfig
 RUN apt-get install -y curl
 RUN ["/bin/bash","-c","curl -sL https://deb.nodesource.com/setup_8.x | bash -"]

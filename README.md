@@ -51,7 +51,7 @@ alpaca
 FROM techbureau/catapult-tools:gcc-0.1.0.2
 ```
 
-bison (default)
+bison
 
 ```
 FROM techbureau/catapult-tools:gcc-0.2.0.2
@@ -61,4 +61,16 @@ cow
 
 ```
 FROM techbureau/catapult-tools:gcc-0.3.0.2
+```
+
+dragon
+
+```
+FROM techbureau/catapult-tools:gcc-0.4.0.1
+```
+
+elephant (default)
+
+```
+FROM techbureau/catapult-tools:gcc-0.5.0.1
 ```

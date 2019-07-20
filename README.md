@@ -7,8 +7,15 @@ start catapult-service-bootstrap
 
 clone repo
 
+(alpaca - cow)
 ```
 cd dockerfiles
+git clone https://github.com/planethouki/catapult-status-api.git status-api
+```
+
+(dragon -)
+```
+cd cmds/docker/dockerfiles
 git clone https://github.com/planethouki/catapult-status-api.git status-api
 ```
 
